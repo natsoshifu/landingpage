@@ -1,0 +1,49 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    background: #1f2937;
+    font-family: Roboto, arial, sans-serif;
+}
+
+.top {
+    color: #fff;
+}
+
+.header {
+    height: 100px;
+    padding: 16px;
+    border: 4px solid indigo;
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+
+}
+
+.menu {
+    flex: 1;
+}
+
+.slide {
+    height: 300px;
+    padding: 16px;
+    border: 4px solid indigo;
+    display: flex;
+}
+
+.slide-left {
+    flex: 1;
+}
+
+.slide-right {
+    flex: 1;
+    width: 500px;
+}
+
+.slide img {
+    width: 100%;
+}
