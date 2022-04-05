@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +11,7 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <div class="top">
+    <div id="top">
         <div class="header">
             <div class="logo">Header Logo</div>
             <div class="menu">
@@ -24,9 +26,54 @@
             <div class="slide-left">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="signup">Sign Up</button>
             </div>
             <div class="slide-right"><img src="https://www.adorama.com/alc/wp-content/uploads/2020/10/abstract-photography-design-feature-825x465.jpg"></div>
         </div>
+    </div>
+    <div id="info">
+        <div class="info-section">
+            <h2>Some random information.</h2>
+            <div class="info-boxes">
+                <div class="info-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="info-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="info-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="info-box">
+                    <div class="box"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+         </div>
+    
+    </div>
+    <div id="quote">
+        <div class="quote-section">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who know? All I know is that it looks nice.</p>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </div>
+    <div id="calltoaction">
+        <div class="signup-box">
+            <div class="signup-box1">
+                <h2>Call to action! It's time!</h2>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="signup-box2">
+                <button class="signup-button">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright © The Odin Project 2021</p>
     </div>
 
 </body>
